@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+     name="Marian"           
+     content="Hi, I'm Marin Marian and this is my portofoi.
+              I am web designer and web development.">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+
+<!--====HEADER====!-->
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div>  
+            <a href="index.html" class="nav__logo">Marian</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#workspace" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+
+    </nav>
+</header>
+
+<!-- ====MAIN==== -->
+
+<main class="l-main">
+
+    <!-- ====HOME==== -->
+    <section class="home bd-grid" id="home">
+        <div class="home__data">
+            <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Marian<br>Junior Web Designer</span></h1>
+        </div>
+
+        <div class="home__social">
+            <a onclick="openlin()" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            <a onclick="openGit0()" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+        </div>
+
+        <div class="home__img">
+            <img src="img/avatar.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- ====SKILLS==== -->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">          
+            <div>
+                <h2 class="skills__subtitle">Profesional Skills</h2>
+                <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">HTML5</span>
+                    </div>
+                    <div class="skills__bar skills__html">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">95%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-css3 skills__icon'></i>
+                        <span class="skills__name">CSS3</span>
+                    </div>
+                    <div class="skills__bar skills__css">
+                        
+                    </div>
+                    <div>
+                        <span class="skills__percentage">85%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-javascript skills__icon' ></i>
+                        <span class="skills__name">JAVASCRIPT</span>
+                    </div>
+                    <div class="skills__bar skills__js">
+                        
+                    </div>
+                    <div>
+                        <span class="skills__percentage">65%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxs-paint skills__icon'></i>
+                        <span class="skills__name">UX/UI</span>
+                    </div>
+                    <div class="skills__bar skills__ux">
+                        
+                    </div>
+                    <div>
+                        <span class="skills__percentage">85%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div>              
+                <img src="img/skills.jpg" alt="" class="skills__img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ====WORKSPACE==== -->
+
+<section class="workspace section" id="workspace">
+    <h2 class="section-title">WORKSPACE</h2>
+    <div class="work__container bd-grid"> 
+    <div class="grid__item">
+        <div class="card">
+          <img class="card__img" src="img/workspace1.png" alt="workspace1" />
+          <div class="card__content">
+            <h1 class="card__header">Reservation system</h1>
+            <p class="card__text">
+                Reservation system created in <strong>php,bootstrap 4</strong>
+             </p>
+             <button class="card__btn" onclick="openGit()">Visit <span>&rarr;</span></button>
+             <button class="card__btn" onclick="openYou()">Youtube<span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__item">
+        <div class="card">
+          <img class="card__img" src="img/workspace2.png" alt="workspace2" />
+          <div class="card__content">
+            <h1 class="card__header">Doctors apps</h1>
+            <p class="card__text">
+                Doctors apps & and admin system created in <strong>c# </strong> 
+             
+            </p>
+            <button class="card__btn" onclick="openGit2()">Visit <span>&rarr;</span></button>
+            <button class="card__btn" onclick="openYou2()">Youtube<span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__item">
+        <div class="card">
+          <img class="card__img" src="img/workspace3.png" alt="workspace3" />
+          <div class="card__content">
+            <h1 class="card__header">SmartHome RaspberryPi</h1>
+            <p class="card__text">
+              SmartHome created with <strong> raspberrypi,php,bootstrap</strong>
+            </p>
+            <button class="card__btn" onclick="openGit3()">Visit <span>&rarr;</span></button>
+            <button class="card__btn" onclick="openYou3()">Youtube<span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="grid__item">
+        <div class="card">
+          <img class="card__img" src="img/workspace4.png" alt="workspace4" />
+          <div class="card__content">
+            <h1 class="card__header">Transaction History</h1>
+            <p class="card__text">
+                Transaction history created in <strong> .netcore with api</strong>
+              
+            </p>
+            <button class="card__btn" onclick="openGit4()">Visit <span>&rarr;</span></button>
+            <button class="card__btn" onclick="openYou4()">Youtube<span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+
+      </div>  
+      
+ </section>
+
+</main>
+
+ <!--===== FOOTER =====-->
+ <footer class="footer" id="footer">
+    <p class="footer__title">Marin Marian</p>
+    <div class="footer__social">
+        <a onclick="openFbk()" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+        <a onclick="openIns()" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+       
+    </div>
+    <a class="afooter" href="mailto:puiumarin92@gmail.com"><i class='bx bx-mail-send'></i>puiumarin92@gmail.com</a>
+    
+</footer>
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="/js/main.js"></script>  
+</body>
+</html>
